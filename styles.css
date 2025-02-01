@@ -49,12 +49,7 @@ html, body {
     max-width: 600px;
     margin: 0 auto 20px;
 }
-.titulo-hoteles {
-  font-size: 36px;
-  margin: 0px 0;
-  font-weight: 700;
-  text-align: center;
-}
+
 .carousel-container {
   position: relative;
   width: 90%;
@@ -150,7 +145,7 @@ html, body {
   height: 32vw; /* Ajusta la altura según el diseño */
   background: url('images/separator.png') no-repeat center center;
   background-size: contain; /* Se adapta sin distorsionar */
-  margin-top:-25px;
+  margin-top:-15px;
   border: none;
 }
 
@@ -242,4 +237,9 @@ html, body {
   font-weight: 700;
   text-align: center;
 }
-
+.titulo-hoteles {
+  font-size: 36px;
+  margin: -10px 0 0 30px;
+  font-weight: 700;
+  text-align: center;
+}
