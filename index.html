@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=375, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
 
     <title>Boda Mar & Jorge</title>
     <link rel="stylesheet" href="styles.css">
@@ -10,12 +11,12 @@
 <body>
 
     <div class="container">
-        <img src="images/ilustracion.png" alt="Boda Mar & Jorge">
+        <img class="fotoilus" src="images/ilustracion.png" alt="Boda Mar & Jorge">
     </div>
 
     <div class="separator"></div>
 
-    <h2 class="titulo-hoteles">Hoteles cercanos</h2>
+    <h3 class="titulo-hoteles">Hoteles con tarifa especial para nuestra boda.</h3>
     <div class="carousel-container">
         <div class="carousel" id="carousel">
             <div class="hotel-card">
@@ -42,7 +43,7 @@
 
             <div class="hotel-card">
                 <a href="https://maps.app.goo.gl/pdA5hvvvTXwvv6zS7" target="_blank">
-                    <img src="https://lh3.googleusercontent.com/gps-proxy/ALd4DhFU_qQJm7AnyWH2nsTXWooMDY5UUNDMMBC0qGZVMQxAGuTtAFku1WTRRtPl6Vl0aWIaagvUD-9MULxTt-ijQrrcJfrZZThbb3aJtQuIFafkXVrYYpeswdCxoU8GBgGYnfDHknBkCfsL0ayd7XdZq9Pd1wNRJLxrMGBE94tv6HJGJD4eLLDXwDw9dw=w408-h272-k-no" alt="Hotel Torrezaf">
+                    <img src="https://www.hoteltorrezaf.com/wp-content/uploads/2021/11/galeria-inicio-1-1630x860.jpg" alt="Hotel Torrezaf">
                 </a>
                 <h3><a href="https://maps.app.goo.gl/pdA5hvvvTXwvv6zS7" target="_blank">Hotel Torrezaf</a></h3>
                 <p>Ubicación: Torredelcampo, Jaén</p>
@@ -63,7 +64,6 @@
                 <h3><a href="https://maps.app.goo.gl/pdA5hvvvTXwvv6zS7" target="_blank">Estudio San Amador</a></h3>
                 <p>Ubicación: Martos, Jaén</p>
             </div>
-            
             <div class="hotel-card">
                 <a href="https://maps.app.goo.gl/pdA5hvvvTXwvv6zS7" target="_blank">
                     <img src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=8rfuifIIQINWVzpVs-KAfQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=214.75964&pitch=0&thumbfov=100" alt="Sweet Home">
@@ -71,7 +71,6 @@
                 <h3><a href="https://maps.app.goo.gl/pdA5hvvvTXwvv6zS7" target="_blank">Sweet Home</a></h3>
                 <p>Ubicación: Martos, Jaén</p>
             </div>
-
             <div class="hotel-card">
                 <a href="https://maps.app.goo.gl/pdA5hvvvTXwvv6zS7" target="_blank">
                     <img src="https://lh5.googleusercontent.com/p/AF1QipN50arhHK9XvD6UAoJb7sALW2JVei6oC1uRFDNW=w408-h306-k-no" alt="Casa Rural Mañanas Felices">
@@ -79,17 +78,19 @@
                 <h3><a href="https://maps.app.goo.gl/pdA5hvvvTXwvv6zS7" target="_blank">Casa Rural Mañanas Felices</a></h3>
                 <p>Ubicación: Martos, Jaén</p>
             </div>
-
-
         </div>
+        <span class="legend">Selecciona tu preferido</span>
     </div>
+    
+    <h3 class="titulo-hoteles2">En caso de completarse el aforo de los anteriores hoteles, recomendamos alojarse en Jaén capital.</h3>
+    <img class="mapa" src="images/mapa.png"></img>
     <div class="separator"></div>
     <h3 class="prueba">Desplazamientos recomendados</h3>
     <div class="flights-container">
         <div class="flights" id="flights">
             <div class="flight-card">
                 <h3>Desde Granada</h3>
-                <a href="https://maps.app.goo.gl/qNPAYTs4uE9fA5H36">
+                <a class="mapa2" href="https://maps.app.goo.gl/qNPAYTs4uE9fA5H36">
                     <img src="images/granada.png"></img>
                 </a>
                 <h4>Aerolíneas recomendadas</h4>
@@ -121,6 +122,7 @@
                 </div>
             </div>
         </div>
+        <span class="legenddos">Pincha en las imágenes para más información</span>
     </div>
     
     <script src="scripts.js"></script>
